@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import QuizAPI from '../../Hooks/QuizAPI';
+import QuizAPI from '../../CustomHooks/QuizAPI';
 import QuizCard from './QuizCard';
 
 const QuizPage = () => {

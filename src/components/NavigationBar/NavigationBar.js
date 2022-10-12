@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../Assets/Images/ideas.png'
+import logo from '../../MyAssets/Images/ideas.png'
 
 const NavigationBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-info ">
+            <div className="containe mx-auto">
 
                 <Link className="navbar-brand" to="/">
                     <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />

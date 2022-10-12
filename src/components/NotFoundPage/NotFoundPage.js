@@ -1,5 +1,5 @@
 import React from 'react'
-import notPic from '../../Assets/Images/notFoundPhoto.jpg'
+import notPic from '../../MyAssets/Images/notFoundPhoto.jpg'
 const NotFoundPage = () => {
     return (
         <div>

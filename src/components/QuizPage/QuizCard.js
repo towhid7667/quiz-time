@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import Swal from 'sweetalert2';
 
@@ -47,7 +49,7 @@ const QuizCard = (props) => {
         <div className='card my-5 mx-0 mx-md-5 p-3'>
 
             <div className='text-end'>
-                <i onClick={checkAnswer} className="fas fa-eye fs-3"></i>
+                <FontAwesomeIcon onClick={checkAnswer} icon={faEye}></FontAwesomeIcon>
             </div>
 
 
