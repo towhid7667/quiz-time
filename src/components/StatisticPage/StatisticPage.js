@@ -1,5 +1,5 @@
 import React from 'react'
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import {  AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import TopicListAPI from '../../CustomHooks/TopicListAPI';
 
 const StatisticPage = () => {
